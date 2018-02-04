@@ -1,0 +1,36 @@
+{
+  "name": "mean_app",
+  "version": "1.0.0",
+  "description": "MEAN stack web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raghav96/mean_app.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "Express.js",
+    "Angular.js",
+    "Node.js"
+  ],
+  "author": "Raghav Ravisankar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raghav96/mean_app/issues"
+  },
+  "homepage": "https://github.com/raghav96/mean_app#readme",
+  "dependencies": {
+    "body-parser": "~1.8.0",
+    "compression": "~1.0.11",
+    "connect": "^3.6.5",
+    "ejs": "~2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "method-override": "~2.2.0",
+    "mongoose": "^5.0.2",
+    "morgan": "~1.3.0"
+  }
+}
